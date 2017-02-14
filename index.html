@@ -2,30 +2,101 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 
+<!-- LINK DO DESIGN BASE
+https://projects.invisionapp.com/share/z957343UT#/screens/120720200
+-->
+
+<div data-role="page" id="intro1">
+  <center>
+    <br>
+      <div class="box">
+        <a href="#intro2" data-transition="slide">
+          <img src="icone-exemplo.png"><br>
+          <p>Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p></a>
+      </div><br><br>
+    <a href="#intro1" data-transition="slide"><img src="bullet-full.png"></a>
+    <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
+    <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
+    <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
+  </center>
+</div>
+
+<div data-role="page" id="intro2">
+  <center>
+    <br>
+      <div class="box">
+        <a href="#intro3" data-transition="slide">
+            <img src="icone-exemplo.png"><br>
+            <p>O perfil <b>NautaPRO</b> permite que você fique por dentro de tudo e ainda colabore com todo o nosso conteúdo, além da possibilidade de conhecer outros Nauta.</p></a>
+      </div><br><br>
+      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro2" data-transition="slide"><img src="bullet-full.png"></a>
+      <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
+  </center>
+</div>
+
+<div data-role="page" id="intro3">
+  <center>
+    <br>
+      <div class="box">
+        <a href="#intro4" data-transition="slide">
+          <img src="icone-exemplo.png"><br>
+          <p>Se a instituição de ensino que você estuda possuir cadastro em nosso aplicativo, utilize o perfil <b>NautaEDU</b> e forme uma rede com seus colegas e professores!</p></a>
+      </div><br><br>
+      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro3" data-transition="slide"><img src="bullet-full.png"></a>
+      <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
+  </center>
+</div>
+
+<div data-role="page" id="intro4">
+  <center>
+    <br>
+      <div class="box">
+        <a href="#pageone" data-transition="slide">
+          <img src="icone-exemplo.png"><br>
+          <p>Se não se encaixa em nenhum perfil, relaxa! Conheça nosso aplicativo como <b>Visitante</b> e aproveite alguns de nossos recursos.</p></a>
+      </div><br><br>
+      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
+      <a href="#intro4" data-transition="slide"><img src="bullet-full.png"></a>
+  </center>
+</div>
+
 <div data-role="page" id="pageone">
-  <div data-role="header">
+  <!--<div data-role="header">
     <h1>NAUTA</h1>
-  </div>
+  </div>-->
 
   <div data-role="main" class="ui-content">
     <center>
-    <a href="#pagetwo"><img src="http://www.jornaldeponta.com.br/wp-content/uploads/2015/01/300x100-banner2.jpg"></a>
-    <a href="#pagetwo"><img src="http://www.jornaldeponta.com.br/wp-content/uploads/2015/01/300x100-banner2.jpg"></a>
-    <a href="#pagetwo"><img src="http://www.jornaldeponta.com.br/wp-content/uploads/2015/01/300x100-banner2.jpg"></a>
-    <a href="#pagetwo"><img src="http://www.jornaldeponta.com.br/wp-content/uploads/2015/01/300x100-banner2.jpg"></a>
-    <a href="#pagetwo"><img src="http://www.jornaldeponta.com.br/wp-content/uploads/2015/01/300x100-banner2.jpg"></a>
+      <br><br><br>
+          <a href="#pagetwo"><img src="logo-nauta.png"></a>
+      <p>Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p>
+        <a href="#">
+          <div class="botao-azul">
+              ENTRAR
+          </div>
+        </a>
+
+
     </center>
   </div>
 
-  <div data-role="footer" data-position="fixed">
+  <!--<div data-role="footer" data-position="fixed">
     <h1>Footer Text</h1>
-  </div>
+  </div>-->
 </div>
 
 <div data-role="page" id="pagetwo">
