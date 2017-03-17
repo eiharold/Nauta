@@ -3,10 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<link rel="stylesheet" href="style.css">
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 
@@ -17,60 +17,18 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
 <div data-role="page" id="intro1">
   <center>
     <br>
-      <div class="box">
-        <a href="#intro2" data-transition="slide">
-          <img src="icone-exemplo.png"><br>
-          <p>Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p></a>
+      <div class="box"> 
+          <img src="img/logo-02.png"><br>
+          <p class="ventiCFFont">Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p></a>
       </div><br><br>
-    <a href="#intro1" data-transition="slide"><img src="bullet-full.png"></a>
-    <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
-    <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
-    <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
-  </center>
-</div>
+    <a href="#pageone" data-transition="slide">
 
-<div data-role="page" id="intro2">
-  <center>
-    <br>
-      <div class="box">
-        <a href="#intro3" data-transition="slide">
-            <img src="icone-exemplo.png"><br>
-            <p>O perfil <b>NautaPRO</b> permite que você fique por dentro de tudo e ainda colabore com todo o nosso conteúdo, além da possibilidade de conhecer outros Nauta.</p></a>
-      </div><br><br>
-      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro2" data-transition="slide"><img src="bullet-full.png"></a>
-      <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
-  </center>
-</div>
+          <div class="botao-azul">
+              ENTRAR
+          </div>
 
-<div data-role="page" id="intro3">
-  <center>
-    <br>
-      <div class="box">
-        <a href="#intro4" data-transition="slide">
-          <img src="icone-exemplo.png"><br>
-          <p>Se a instituição de ensino que você estuda possuir cadastro em nosso aplicativo, utilize o perfil <b>NautaEDU</b> e forme uma rede com seus colegas e professores!</p></a>
-      </div><br><br>
-      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro3" data-transition="slide"><img src="bullet-full.png"></a>
-      <a href="#intro4" data-transition="slide"><img src="bullet-v.png"></a>
-  </center>
-</div>
 
-<div data-role="page" id="intro4">
-  <center>
-    <br>
-      <div class="box">
-        <a href="#pageone" data-transition="slide">
-          <img src="icone-exemplo.png"><br>
-          <p>Se não se encaixa em nenhum perfil, relaxa! Conheça nosso aplicativo como <b>Visitante</b> e aproveite alguns de nossos recursos.</p></a>
-      </div><br><br>
-      <a href="#intro1" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro2" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro3" data-transition="slide"><img src="bullet-v.png"></a>
-      <a href="#intro4" data-transition="slide"><img src="bullet-full.png"></a>
+    </a>
   </center>
 </div>
 
@@ -80,39 +38,147 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
   </div>-->
 
   <div data-role="main" class="ui-content">
-    <center>
-      <br><br><br>
-          <a href="#pagetwo"><img src="logo-nauta.png"></a>
-      <p>Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p>
-        <a href="#">
-          <div class="botao-azul">
-              ENTRAR
+         <center>
+         <br>
+           <img src="img/logo-02.png"><br>
+         <br>
+        <a href="#main1" data-transition="slide">
+          <div class="botoes instrumentos">
+            <img class="icone-menu" src="img/icons/menu1.png">
+              <div class="titulo-menu">Instrumentos Náuticos</div>
           </div>
         </a>
+        <a href="#main2" data-transition="slide">
+          <div class="botoes nautapedia">
+            <img class="icone-menu" src="img/icons/menu2.png">
+              <div class="titulo-menu">Nautapédia</div>
+          </div>
+        </a>
+        <a href="#main3" data-transition="slide">
+          <div class="botoes faq">
+             <img class="icone-menu" src="img/icons/menu3.png">
+              <div class="titulo-menu">Perguntas e<br>respostas</div>
+          </div>
+          </a>
+          <a href="#main4" data-transition="slide">
+          <div class="botoes links">
+               <img class="icone-menu" src="img/icons/menu4.png">
+               <div class="titulo-menu">Links úteis</div>
+          </div>
+          </a>
 
 
     </center>
   </div>
+</div>
+
+<div data-role="page" id="main1">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu1min.png">Instrumentos</div>
+    <br>
+      <p class="description">A Astronomia Náutica é o método em que os navegantes utilizam a observação dos astros (estrelas, planetas ou o sol) para determinar sua posição no mar, através da medição da Latitude e da Longitude. Saber sobre cada instrumento desta seção é muito importante para o resultado final. A partir de então, você estará pronto para navegar para onde quiser, além de poder contemplar as belezas existentes no céu!</p>
+  </center>
+
+        <a href="#main1" data-transition="slide">
+          <div class="botoes sextante">
+            <img class="icone-menu" src="img/icons/menu1-1.png">
+              <div class="titulo-menu">Sextante</div>
+          </div>
+        </a>
+        <a href="#main1" data-transition="slide">
+          <div class="botoes cronometro">
+            <img class="icone-menu" src="img/icons/menu1-2.png">
+              <div class="titulo-menu">Cronômetro</div>
+          </div>
+        </a>
+        <a href="#main1" data-transition="slide">
+          <div class="botoes almanaque">
+            <img class="icone-menu" src="img/icons/menu1-3.png">
+              <div class="titulo-menu">Almanaque</div>
+          </div>
+        </a><br>
+      <center>
+        <a href="#pageone" data-transition="slide">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="main2">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu2min.png">Nautapédia</div>
+    <br>
+      <p class="description">Veja novas notícias, curiosidades e palavras na nossa enciclopédia!</p>
+  </center>
+
+        <a href="#main1" data-transition="slide">
+          <div class="botoes sextante">
+            <img class="icone-menu" src="img/icons/menu2-1.png">
+              <div class="titulo-menu">Nautanews</div>
+          </div>
+        </a>
+        <a href="#main1" data-transition="slide">
+          <div class="botoes cronometro">
+            <img class="icone-menu" src="img/icons/menu2-2.png">
+              <div class="titulo-menu">Enciclopédia</div>
+          </div>
+        </a><br>
+      <center>
+        <a href="#pageone" data-transition="slide">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+<div data-role="page" id="main3">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu2min.png">Perguntas e Respostas</div>
+    <br>
+      <p class="description">(Incompleto) Perguntas e respostas.</p>
+  </center>
+<center>
+        <a href="#pageone" data-transition="slide">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+<div data-role="page" id="main4">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu2min.png">(Incompleto) Links Úteis</div>
+    <br>
+      <p class="description">Links.</p>
+  </center>
+<center>
+        <a href="#pageone" data-transition="slide">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
 
   <!--<div data-role="footer" data-position="fixed">
     <h1>Footer Text</h1>
   </div>-->
 </div>
 
-<div data-role="page" id="pagetwo">
-  <div data-role="header">
-    <h1>Welcome To My Homepage</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
-    <a href="#pageone">Go to Page One</a>
-  </div>
-
-  <div data-role="footer">
-    <h1>Footer Text</h1>
-  </div>
-</div>
 
 </body>
 </html>
