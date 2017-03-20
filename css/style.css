@@ -136,3 +136,28 @@ line-height: 18px;
       src: url("../font/Roboto-Light.ttf") format("truetype");
 
       }
+
+a, a:visited {
+  text-decoration: none;
+  color: #fff;
+  text-shadow:none;
+}
+
+.description {
+  text-decoration: none;
+  text-shadow: none;
+  color: #fff;
+}
+
+.obs {
+  font-size: 12px;
+  margin-top: 10px;
+  color:#733786;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+h3 {
+  border-top: 1px solid #733786;
+  padding-top: 10px;
+}
