@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/controller.js"></script>
 </head>
 <body>
 
@@ -77,6 +78,8 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
   <center>
   <div class="titulos">
   <img src="img/icons/menu1min.png">Instrumentos</div>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
     <br>
       <p class="description">A Astronomia Náutica é o método em que os navegantes utilizam a observação dos astros (estrelas, planetas ou o sol) para determinar sua posição no mar, através da medição da Latitude e da Longitude. Saber sobre cada instrumento desta seção é muito importante para o resultado final. A partir de então, você estará pronto para navegar para onde quiser, além de poder contemplar as belezas existentes no céu!</p>
   </center>
@@ -87,7 +90,7 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
               <div class="titulo-menu">Sextante</div>
           </div>
         </a>
-        <a href="#main1" data-transition="slide">
+        <a href="#cronometro" data-transition="slide">
           <div class="botoes cronometro">
             <img class="icone-menu" src="img/icons/menu1-2.png">
               <div class="titulo-menu">Cronômetro</div>
@@ -114,7 +117,8 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
   <center>
   <div class="titulos">
   <img src="img/icons/menu2min.png">Nautapédia</div>
-    <br>
+     <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <p class="description"><center>Veja novas notícias, curiosidades e palavras na nossa enciclopédia!</center></p>
   </center>
 
@@ -144,7 +148,9 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
   <center>
   <div class="titulos">
   <img src="img/icons/menu3min.png">FAQ</div>
-    </center><br>
+  </center>
+  <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <div class="description">
         
         <h3>1. De que é feito o universo?</h3>
@@ -471,7 +477,8 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
   <center>
   <div class="titulos">
   <img src="img/icons/menu4min.png">Links Úteis</div>
-    <br>
+      <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <div class="description">
        <center>Estes links irão colaborar na sua viagem para as estrelas. Aproveite!
        <br><br></center>
@@ -505,7 +512,8 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
   <center>
   <div class="titulos">
   <img src="img/icons/menu4min.png">Links Úteis</div>
-    <br>
+    <a href="#main2" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <div class="description">
        <center>Estes links irão colaborar na sua viagem para as estrelas. Aproveite!
        <br><br></center>
@@ -547,7 +555,8 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
   <center>
   <div class="titulos">
   <img src="img/icons/almanaque-min.png">Almanaque</div>
-    <br>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <div class="description">
        <center>Almanaque oficial disponível no link abaixo:
        <br><br></center>
@@ -561,6 +570,47 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
         <a href="#main2" data-transition="slide">
           <br>
   </center>
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="cronometro">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/almanaque-min.png">Cronometro</div>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Confira a nossa ferramenta de cronômetro:
+       <br><br></center>
+      </div>
+
+        
+          <br>
+  </center>
+
+<center>
+
+<div id="contenedor">
+    <div class="reloj" id="Horas">00</div>
+    <div class="reloj" id="Minutos">:00</div>
+    <div class="reloj" id="Segundos">:00</div>
+    <div class="reloj" id="Centesimas">:00</div><br><br>
+    <input type="button" class="boton" id="inicio" value="Iniciar &#9658;" onclick="inicio();">
+    <input type="button" class="boton" id="parar" value="Parar &#8718;" onclick="parar();">
+    <input type="button" class="boton" id="continuar" value="Continuar &#8634;" onclick="inicio();">
+    <input type="button" class="boton" id="reinicio" value="Resetar &#8635;" onclick="reinicio();">
+  </div>
+
+</center>
+
 <center>
         <a href="#pageone" data-transition="slide" data-direction="reverse">
             <img class="icone-menu" src="img/logo-mini.png">
