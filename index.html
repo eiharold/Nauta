@@ -84,7 +84,7 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
       <p class="description">A Astronomia Náutica é o método em que os navegantes utilizam a observação dos astros (estrelas, planetas ou o sol) para determinar sua posição no mar, através da medição da Latitude e da Longitude. Saber sobre cada instrumento desta seção é muito importante para o resultado final. A partir de então, você estará pronto para navegar para onde quiser, além de poder contemplar as belezas existentes no céu!</p>
   </center>
 
-        <a href="#main1" data-transition="slide">
+        <a href="#sextante" data-transition="slide">
           <div class="botoes sextante">
             <img class="icone-menu" src="img/icons/menu1-1.png">
               <div class="titulo-menu">Sextante</div>
@@ -608,6 +608,49 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
     <input type="button" class="boton" id="continuar" value="Continuar &#8634;" onclick="inicio();">
     <input type="button" class="boton" id="reinicio" value="Resetar &#8635;" onclick="reinicio();">
   </div>
+
+</center>
+
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+  <!--<div data-role="footer" data-position="fixed">
+    <h1>Footer Text</h1>
+  </div>-->
+</div>
+
+<div data-role="page" id="sextante">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/almanaque-min.png">Sextante</div>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Confira a nossa ferramenta de sextante:
+       <br><br>
+        Ângulo<input id="angulo"></input>
+        Mês<input id="mes"></input>
+        Dia<input id="dia"></input>
+        Horas<input id="horas"></input>
+        Minutos<input id="minutos"></input>
+
+       </center>
+      </div>
+
+        
+          <br>
+  </center>
+
+<center>
+
+<button onclick="sextante((document.getElementById('angulo').value),(document.getElementById('dia').value),(document.getElementById('mes').value),(document.getElementById('horas').value),(document.getElementById('minutos').value))">Resultado</button>
 
 </center>
 

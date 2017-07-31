@@ -12,9 +12,9 @@ Entradas:
 
 4) Horas (int)
 
-/* Verificar horas e minutos ao meio dia no horário de Greenwich */
-
 5) Minutos (int)
+
+/* Verificar horas e minutos ao meio dia no horário de Greenwich */
 
 Variáveis internas:
 
@@ -75,9 +75,11 @@ Estariamos em algum lugar da Rússia.
 
 ALGORITMO:
 
+Versao 1 (lógica):
+
 função Sextante(angulo:float, dia:int, mes:int, horas:int, minutos:int) {
 	declinacao = comparar (dia & mes) com tabela;
-	(90 - angulo) + declinacao = latitudeTemp(float);
+	latitudeTemp = (90 - angulo) + declinacao;
 
 	funcao converterParaString(latitudeTemp:float) {
 		retorna: latitude(string);
@@ -91,4 +93,49 @@ função Sextante(angulo:float, dia:int, mes:int, horas:int, minutos:int) {
 
 	retorna: latitude + " " + longitude;
 
-}
+};
+
+
+
+Versao 2 (JS):
+
+
+var janeiro = [-23.09,-23.02,-22.94,-22.86,-22.76];
+
+function Sextante(angulo, dia, mes, horas, minutos) {
+	if mes == janeiro {
+		for (i = 1; i < 32; i++) { 
+		    if (dia == i) {
+				var declinacao = janeiro[i];
+			}
+		}
+	}
+
+	var latitudeTemp = (90 - angulo) + declinacao;
+
+	if (latitudeTemp > 0) {
+		var eixoY = "N";
+	}
+
+	else {
+		var eixoY = "S"
+	}
+
+	var latitude = latitudeTemp.toString() + " " + eixoY;
+
+	var longitudeTemp = (12 - horario) * 15
+
+	if (longitudeTemp > 0) {
+		var eixoX = "L";
+	}
+
+	else {
+		var eixoX = "O"
+	}
+
+	var longitude = longitudeTemp.toString() + " " + eixoX;
+
+	return (latitude + " " + longitude);
+	console.log("teste");
+
+};
