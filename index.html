@@ -86,7 +86,7 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
 
         <a href="#sextante" data-transition="slide">
           <div class="botoes sextante">
-            <img class="icone-menu" src="img/icons/menu1-1.png">
+            <img class="icone-menu" src="img/icons/menu1-3.png">
               <div class="titulo-menu">Sextante</div>
           </div>
         </a>
@@ -98,7 +98,7 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
         </a>
         <a href="#almanaque" data-transition="slide">
           <div class="botoes almanaque">
-            <img class="icone-menu" src="img/icons/menu1-3.png">
+            <img class="icone-menu" src="img/icons/menu1-1.png">
               <div class="titulo-menu">Almanaque</div>
           </div>
         </a><br>
@@ -128,7 +128,7 @@ https://projects.invisionapp.com/share/z957343UT#/screens/120720200
               <div class="titulo-menu">Nautanews</div>
           </div>
         </a>
-        <a href="Dicionario-Astronomico-Atualizado.pdf">
+        <a href="https://pt.scribd.com/document/219071171/Dicionario-Astronomico-Atualizado">
           <div class="botoes cronometro">
             <img class="icone-menu" src="img/icons/menu2-2.png">
               <div class="titulo-menu">Enciclopédia</div>
@@ -629,17 +629,38 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
 <div data-role="main" class="ui-content">
   <center>
   <div class="titulos">
-  <img src="img/icons/almanaque-min.png">Sextante</div>
+  <img src="img/icons/sextante-min.png">Sextante</div>
     <a href="#main1" data-transition="slide" data-direction="reverse">
   <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
       <div class="description">
-       <center>Confira a nossa ferramenta de sextante:
+       <center><i>Nossa calculadora utiliza valores da declinação solar, em graus, calculadas segundo Spencer (1971), citado por Vianello e Alves (1991).</i>
        <br><br>
-        Ângulo<input id="angulo"></input>
-        Mês<input id="mes"></input>
-        Dia<input id="dia"></input>
-        Horas<input id="horas"></input>
-        Minutos<input id="minutos"></input>
+
+        <select name="mes" id="mes">
+              <option selected disabled>Mês</option>
+              <option value="janeiro">Janeiro</option>
+              <option value="fevereiro">Fevereiro</option>
+              <option value="marco">Março</option>
+              <option value="abril">Abril</option>
+              <option value="maio">Maio</option>
+              <option value="junho">Junho</option>
+              <option value="junho">Julho</option>
+              <option value="agosto">Agosto</option>
+              <option value="setembro">Setembro</option>
+              <option value="outubro">Outubro</option>
+              <option value="novembro">Novembro</option>
+              <option value="dezembro">Dezembro</option>
+            </select>
+        <table>
+        <tr>
+        <td>
+        <input type="number" id="dia" placeholder="Dia"></input>
+        </td>
+        <td><input id="horas" placeholder="Horas"></input></td>
+        <td><input id="minutos" placeholder="Minutos"></input></td>
+        <td><input type="number" id="angulo" placeholder="Ângulo"></input></td>
+        </tr>
+        </table>
 
        </center>
       </div>
@@ -651,6 +672,7 @@ uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o prof
 <center>
 
 <button onclick="sextante((document.getElementById('angulo').value),(document.getElementById('dia').value),(document.getElementById('mes').value),(document.getElementById('horas').value),(document.getElementById('minutos').value))">Resultado</button>
+<div id="result-calc" class="results"></div><br>
 
 </center>
 
