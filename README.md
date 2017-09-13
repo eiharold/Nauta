@@ -3,7 +3,7 @@
 ## Descrição
 
 Nauta é um aplicativo desenvolvido por...
-(Em construção)
+(Em construção).
 
 ## Uso
 
