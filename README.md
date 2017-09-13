@@ -1,10 +1,15 @@
-# A Blank PhoneGap App
+# NAUTA
 
-## Usage
+## Descrição
 
-### PhoneGap CLI
+Nauta é um aplicativo desenvolvido por...
+(Em construção)
 
-    $ phonegap create my-app --template blank
+## Uso
+
+### Teste
+
+    $ Teste code
 
 ### Desktop
 
