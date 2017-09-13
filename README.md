@@ -2,18 +2,21 @@
 
 ## Descrição
 
-Nauta é um aplicativo desenvolvido por...
-(Em construção).
+Nauta é um aplicativo feito para auxiliar a aprendizagem e compartilhar conhecimentos de Astronomia Náutica e Astronomia, com ferramentas dinâmicas e interativas.
 
-## Uso
+## Autores
 
-### Teste
+Aplicativo idealizado por Marília Gabriella.
+Design por Marília Gabriella.
+Desenvolvido por Interfaces Livres.
 
-    $ Teste code
+### Instalação
 
-### Desktop
+    $ Em breve
 
-In your browser, open the file:
+### Conteúdo
 
-    /www/index.html
+#### Instrumentos Náuticos
 
+Sextante, Cronômetro, Almanaque.
+	
