@@ -9,6 +9,15 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="*" />
+    
+	<access origin="tel:*" launch-external="yes"/>
+	<access origin="sms:*" launch-external="yes"/>
+	<plugin name="cordova-plugin-whitelist"/>
+	<allow-intent href="*"/>
+	<allow-intent href="tel:*"/>
+	<allow-intent href="sms:*"/>
+	<allow-intent href="mailto:*"/>
+	<allow-intent href="geo:*"/>
+    <preference name="phonegap-version" value="cli-6.4.0" />
     <icon src="img/icon.png" />
 </widget>
