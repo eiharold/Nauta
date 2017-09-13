@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/controller.js"></script>
+</head>
+<body>
+
+<!-- LINK DO DESIGN BASE
+https://projects.invisionapp.com/share/z957343UT#/screens/120720200
+-->
+
+<div data-role="page" id="intro1">
+  <center>
+    <br>
+      <div class="box"> 
+          <img src="img/logo-02.png"><br>
+          <p class="ventiCFFont">Seja bem vindo ao aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas!</p></a>
+      </div><br><br>
+    <a href="#pageone" data-transition="slide">
+
+          <div class="botao-azul">
+              ENTRAR
+          </div>
+
+
+    </a>
+  </center>
+</div>
+
+<div data-role="page" id="pageone">
+  <!--<div data-role="header">
+    <h1>NAUTA</h1>
+  </div>-->
+
+  <div data-role="main" class="ui-content">
+         <center>
+         <br>
+           <img src="img/logo-02.png"><br>
+         <br>
+        <a href="#main1" data-transition="slide">
+          <div class="botoes instrumentos">
+            <img class="icone-menu" src="img/icons/menu1.png">
+              <div class="titulo-menu">Instrumentos Náuticos</div>
+          </div>
+        </a>
+        <a href="#main2" data-transition="slide">
+          <div class="botoes nautapedia">
+            <img class="icone-menu" src="img/icons/menu2.png">
+              <div class="titulo-menu">Nautapédia</div>
+          </div>
+        </a>
+        <a href="#main3" data-transition="slide">
+          <div class="botoes faq">
+             <img class="icone-menu" src="img/icons/menu3.png">
+              <div class="titulo-menu">Perguntas <br>frequentes</div>
+          </div>
+          </a>
+          <a href="#main4" data-transition="slide">
+          <div class="botoes links">
+               <img class="icone-menu" src="img/icons/menu4.png">
+               <div class="titulo-menu">Links úteis</div>
+          </div>
+          </a>
+
+
+    </center>
+  </div>
+</div>
+
+<div data-role="page" id="main1">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu1min.png">Instrumentos</div>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+    <br>
+      <p class="description">A Astronomia Náutica é o método em que os navegantes utilizam a observação dos astros (estrelas, planetas ou o sol) para determinar sua posição no mar, através da medição da Latitude e da Longitude. Saber sobre cada instrumento desta seção é muito importante para o resultado final. A partir de então, você estará pronto para navegar para onde quiser, além de poder contemplar as belezas existentes no céu!</p>
+  </center>
+
+        <a href="#sextante" data-transition="slide">
+          <div class="botoes sextante">
+            <img class="icone-menu" src="img/icons/menu1-3.png">
+              <div class="titulo-menu">Sextante</div>
+          </div>
+        </a>
+        <a href="#cronometro" data-transition="slide">
+          <div class="botoes cronometro">
+            <img class="icone-menu" src="img/icons/menu1-2.png">
+              <div class="titulo-menu">Cronômetro</div>
+          </div>
+        </a>
+        <a href="#almanaque" data-transition="slide">
+          <div class="botoes almanaque">
+            <img class="icone-menu" src="img/icons/menu1-1.png">
+              <div class="titulo-menu">Almanaque</div>
+          </div>
+        </a><br>
+      <center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="main2">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu2min.png">Nautapédia</div>
+     <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <p class="description"><center>Veja novas notícias, curiosidades e palavras na nossa enciclopédia!</center></p>
+  </center>
+
+        <a href="#nautanews" data-transition="slide">
+          <div class="botoes sextante">
+            <img class="icone-menu" src="img/icons/menu2-1.png">
+              <div class="titulo-menu">Nautanews</div>
+          </div>
+        </a>
+        <a href="https://pt.scribd.com/document/219071171/Dicionario-Astronomico-Atualizado">
+          <div class="botoes cronometro">
+            <img class="icone-menu" src="img/icons/menu2-2.png">
+              <div class="titulo-menu">Enciclopédia</div>
+          </div>
+        </a><br>
+      <center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+<div data-role="page" id="main3">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu3min.png">FAQ</div>
+  </center>
+  <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+        
+        <h3>1. De que é feito o universo?</h3>
+
+Os astrônomos enfrentam um enigma embaraçoso: eles não sabem de que são feitos 95% do universo. Os átomos,
+
+que formam tudo o que vemos a nosso redor, respondem por ínfimos 5%. Nos últimos 80 anos ficou claro que a
+
+maior parte do resto é composta de duas entidades sombrias -- a matéria escura e a energia escura. A primeira,
+
+descoberta em 1933, age como uma cola invisível, ligando galáxias e aglomerados de galáxias. Revelada em 1998, a
+
+segunda empurra a expansão do universo a velocidades cada vez maiores. Os astrônomos estão se aproximando
+
+das verdadeiras identidades dessas intermediárias invisíveis.
+
+<h3>2. Qual é o tempo de vida do Sol?</h3>
+
+O tempo de vida de uma estrela é inversamente proporcional à sua massa: quanto maior ela é, menor é o seu
+
+tempo de vida. O Sol já existe há cerca de 4,6 bilhões de anos e continuará a existir por cerca de 5,5 bilhões de anos
+
+mais. Estrelas como ele tem ciclo evolutivo de aproximadamente 10 bilhões de anos.
+
+<h3>3. Por que o céu é azul?</h3>
+
+A luz é formada pela união de várias cores, e cada uma possui um comprimento de onda diferente, que se
+
+comporta de forma diferente ante as partículas do ar.
+
+As ondas de cada cor espalham-se de forma diferente, dependendo do seu comprimento. Quanto mais curtas, mais
+
+dispersas elas se tornam. O comprimento da onda azul é o segundo mais curto (depois do violeta, que existe menos
+
+na luz do Sol). Por isso, a onda de luz azul é a mais dispersa pela atmosfera terrestre, predominando, portanto, no
+
+céu.
+
+Já durante o pôr do sol, enxergamos o céu vermelho porque no fim de tarde o sol está mais longe do ponto onde
+
+nos encontramos. Isso obriga as ondas de luz a percorrer um caminho mais longo. Ao longo desse caminho, as
+
+ondas mais curtas se dispersam muito e não conseguem chegar aos nossos olhos - só as ondas mais longas, como a
+
+da luz vermelha, atravessam um espaço maior da atmosfera.
+
+<h3>4. Quanto vale um ano-luz?</h3>
+
+O Ano-luz é uma medida de comprimento que corresponde à distância percorrida pela luz em um ano. &quot;Isso
+
+significa, aproximadamente, 9,5 trilhões de quilômetros&quot;, explica o físico Charles Bonatto, professor do
+
+Departamento de Astronomia do Instituto de Física da Universidade Federal do Rio Grande do Sul (UFRGS).
+
+Mais precisamente, são 9.460.536.207.068.016 de metros percorridos com uma velocidade de 299.792.458 metros
+
+por segundo durante 365 dias. Só pra ter uma idéia da rapidez, o tempo que a luz leva para percorrer os
+
+149.597.870 de quilômetros que separam a Terra do Sol é de apenas 8,3 minutos.
+
+<h3>5. O que aconteceria se a Terra parasse de girar?</h3>
+
+Para o biólogo Wellinton Delitti, do Departamento de Ecologia do Instituto de Biociência da USP, se um dia a Terra
+
+parar de girar, o mais provável é a extinção total da vida no planeta.
+
+Delitti acredita que o fenômeno começaria paralisando inicialmente o sistema climático, a circulação marinha e a
+
+vida dos seres humanos. &quot;Uma área do planeta ficaria virada para o Sol, podendo ficar exposta a altas
+
+temperaturas, assim como outra parte ficaria totalmente escura, com a possibilidade de baixíssimas temperaturas&quot;,
+
+explica.
+
+Em razão disso, a possibilidade de algum ser vivo sobreviver seria bastante remota. &quot;Talvez tivessem alguma chance
+
+os organismos que vivem no fundo do mar, próximos a abismos que expelem calor das profundezas da Terra, já que
+
+eles têm a vida baseada na quimiossíntese (que não depende da luz solar)”. Apesar disso, o biólogo destacou que o
+
+mais provável seria &quot;uma catástrofe inimaginável que destruiria todo o ecossistema terrestre&quot;.
+
+O professor Marcelo Knobel, do Instituto de Física da Unicamp, lembra que a parada em si também seria
+
+determinante. &quot;A Terra sairia de uma velocidade de aproximadamente 900 km/h (em latitude de 45°) para zero,
+
+causando uma forte freada, mas essa velocidade pode variar, dependendo da latitude.&quot;
+
+Segundo ele, provavelmente os prédios e casas do mundo inteiro cairiam, e uma espécie de terremoto assolaria a
+
+superfície terrestre. Já a gravidade não mudaria em absolutamente nada.
+
+<h3>6. Como ocorrem os eclipses do Sol e da Lua?</h3>
+
+&quot;O principal elemento de um eclipse é a sombra”, resume o físico Plínio Fasolo, professor da Pontifícia Universidade
+
+Católica do Rio Grande do Sul (PUCRS).
+
+A sombra de qualquer objeto é constituída por duas partes: a umbra, que é a parcela da sombra que não recebe luz
+
+alguma proveniente da fonte luminosa, e a penumbra, a parte da sombra que recebe a luz de partes da fonte
+
+luminosa, mas não de toda.
+
+No caso do eclipse lunar, a Terra está em linha reta entre o Sol e a Lua. O Sol projeta sua luz sobre nosso planeta, e
+
+a Lua é ocultada pela umbra da Terra - situação que chamamos de fase total do eclipse. Já enquanto a Lua transita
+
+pela penumbra da sombra da Terra, nas laterais da umbra, o eclipse da Lua é parcial.
+
+Para explicar o eclipse solar, Fasolo destaca que o Sol é uma fonte de luz de dimensão imensa se comparada ao
+
+tamanho da Terra e da Lua. Por isso as sombras da Terra e da Lua, além de possuírem muita penumbra, possuem
+
+umbras em forma de cone. &quot;As sombras tanto da Lua como da Terra se formam sempre do lado oposto ao do Sol,
+
+que é a fonte de luz. O cone de umbra da Terra é muito maior do que a distância da planeta à Lua”, completa.
+
+Mas o professor esclarece que o cone de umbra da Lua é variável. Tem uma dimensão praticamente igual à sua
+
+distância da Terra. &quot;Essa coincidência passa a ser responsável pela existência de dois tipos de eclipses do Sol
+
+produzidos pelo cone de umbra da Lua: o eclipse total do Sol e o eclipse anular.&quot;
+
+Fasolo conta que ocorrerá um eclipse total do Sol na região da superfície da Terra “tocada” pela ponta do cone de
+
+umbra, quando esta sombra possuir dimensão maior do que a distância da Terra à Lua.
+
+Já o eclipse será anular quando a dimensão do cone de sombra da Lua for um pouco menor do sua distância para a
+
+Terra, deixando por isso de tocar a superfície da Terra. &quot;Nesse, caso a Lua tapa apenas a região central do disco
+
+solar, deixando em torno um anel de luz.&quot;
+
+<h3>7. Por que às vezes a Lua aparece alaranjada?</h3>
+
+A explicação é parecida com a do porquê o céu é azul, mas, nesse caso, na maioria das vezes, isso acontece devido a
+
+uma atmosfera espessa, muito comum nas grandes metrópoles afetadas pela poeira e pela poluição.
+
+Segundo a astrônoma da Universidade Federal do Rio Grande do Sul (Ufrgs) Thaisa Storchi Bergmann, nesse tipo de
+
+situação a atmosfera absorve principalmente a radiação (luz) azul, deixando passar a radiação vermelha, que chega
+
+até nós com mais força.
+
+Ao nascer da Lua, por exemplo, o astro está mais próximo do horizonte, e por isso sua visualização é afetada mais
+
+diretamente pela camada da atmosfera. Isso faz com que ela apareça com uma cor mais alaranjada. &quot;À medida que
+
+a Lua vai subindo, ela vai se tornando mais clara&quot;, explica a astrônoma.
+
+<h3>8. De onde vem o calor emitido pelo Sol?</h3>
+
+A energia do Sol vem de seu núcleo, composto pelos gases hidrogênio e hélio. Reações nucleares transformam o
+
+hidrogênio em hélio e liberam uma enorme quantidade de energia. Essas reações são milhões de vezes mais
+
+poderosas do que as reações nucleares produzidas na Terra - no Sol ocorre fusão nuclear, muito mais poderosa que
+
+a fissão nuclear das usinas de energia e das bombas atômicas. E nosso planeta recebe apenas uma pequena parte
+
+da energia produzida.
+
+Quando um gás é comprimido, ou pressionado, ele aquece. No Sol, a pressão é milhões de vezes maior do que a
+
+pressão na Terra. Toda essa pressão faz com que o hidrogênio atinja temperaturas de 15 milhões de graus
+
+centígrados no núcleo. Com o gás nessa temperatura e pressão, ocorrem as reações nucleares que mantêm o Sol
+
+aquecido.
+
+As reações nucleares transformam quatro prótons ou núcleos de átomos de hidrogênio em uma partícula alfa, que
+
+é o núcleo de um átomo de hélio. A partícula alfa tem aproximadamente 0,7% menos massa do que quatro prótons.
+
+A diferença em massa é expelida como energia, carregada até a superfície do Sol e liberada em forma de luz e calor.
+
+A energia gerada no interior do Sol leva um milhão de anos para chegar à superfície.
+
+Segundo cientistas do Instituto de Física da Universidade Federal do Rio Grande do Sul (Ufrgs), &quot;o Sol tem
+
+combustível suficiente para continuar produzindo energia por mais 5 bilhões de anos. No fim de sua vida, o Sol
+
+começará a fundir o hélio em elementos mais pesados e se expandirá&quot;. Os pesquisadores acreditam que o Sol ficará
+
+tão grande que engolirá a Terra.
+
+<h3>9. O que é um buraco negro?</h3>
+
+Simplificadamente, um buraco negro é um corpo celeste de massa muito grande para o espaço que ocupa,
+
+resultando um campo gravitacional tão forte do qual sequer a luz pode escapar.
+
+&quot;A matéria atraída pelo buraco negro em geral tem movimento angular, por isso é capturada por um disco, no qual
+
+fica girando até se precipitar no centro&quot;, explica a astrônoma da Universidade Federal do Rio Grande do Sul (Ufrgs)
+
+Thaisa Storchi Bergmann.
+
+O buraco negro ocorre, por exemplo, quando uma estrela não possui mais pressão suficiente para produzir uma
+
+força para fora que contrabalance o peso de suas camadas externas. &quot;Essas camadas caem sobre as internas
+
+produzindo uma implosão que dá origem ao fenômeno&quot;, diz a astrônoma.
+
+Os buracos negros são invisíveis por não emitirem radiação, por isso é impossível visualizá-los. No entanto, exercem
+
+força gravitacional sobre os corpos ao seu redor. &quot;Devido à sua atração gravitacional, os buracos negros produzem
+
+movimento em corpos ao seu redor. Por meio desse movimento que é feita sua detecção&quot;, explica Thaisa.
+
+<h3>10. Por que ocorrem as marés alta e baixa?</h3>
+
+É só passar o dia fazendo um grande buraco ou um castelo de areia na praia e você perceberá o fenômeno das
+
+marés: foi virar as costas e o mar subitamente invadiu seu empreendimento.
+
+As marés alta e baixa estão ligadas à força de gravitacional da Lua e da Terra, explica o professor de Oceanografia
+
+Física da Fundação Universidade de Rio Grande (Furg) Osmar Möller Júnior.
+
+A Lua atrai os corpos em sua direção - todos os corpos, mas como as águas dos oceanos fluem mais livremente, a
+
+mudança é mais visível. Quando a Lua e a Terra estão alinhadas, a Lua exerce atração no ponto mais próximo.
+
+Em um determinado momento, quando se estiver &quot;embaixo&quot; da Lua, haverá maré alta. Cerca de seis horas mais
+
+tarde, a rotação da Terra terá levado esse ponto a 90° da Lua, e ele terá maré baixa. Dali a mais seis horas e doze
+
+minutos, o mesmo ponto estará a 180° da Lua, e terá maré alta novamente. &quot;Como a Terra segue girando, a rotação
+
+faz com que um mesmo ponto passe pela maré alta e pela baixa, em ciclos de 12 horas e 25 minutos,
+
+aproximadamente&quot;, diz Möller.
+
+Também a força gravitacional do Sol interfere nas marés, apesar de menos intensamente. Quando a Lua está cheia
+
+ou nova, essa força está na mesma direção da atração lunar - isso torna as marés mais altas. Do mesmo jeito, nas
+
+fases minguante e crescente, parte da força gravitacional da Lua é anulada; assim, as marés baixas são menos
+
+baixas
+
+<h3>11. O que acontece com o corpo humano no espaço?</h3>
+
+As maiores diferenças entre o ambiente em uma nave espacial e qualquer outra embarcação na Terra são o banho
+
+de radiação a que se fica exposto fora da atmosfera terrestre e a microgravidade.
+
+A ação da gravidade zero sobre o corpo humano é o que afeta mais os astronautas, especialmente os que ficam no
+
+espaço por longos períodos, conta a coordenadora do centro de gravidade da Pontifícia Universidade Católica do
+
+Rio Grande Do Sul (PUCRS), professora Thaís Russomano.
+
+&quot;O corpo humano é moldado pela gravidade, como se fosse uma massa de modelar. Temos os membros inferiores
+
+muito mais fortes do que os superiores para sustentar o corpo de pé, devido à ação da gravidade&quot;. Portanto, os
+
+primeiros músculos a se modificarem, em quem fica um bom tempo em órbita, são os das pernas.
+
+Essas mudanças do corpo humano são um fator importante quando se pensa na dificuldade em chegar a Marte,
+
+explica Thaís: primeiro o corpo tem de se adaptar à gravidade zero, depois à força gravitacional de Marte, depois
+
+novamente ao espaço e, por fim, reaprender a sustentar nossa massa aqui na Terra.
+
+Outro perigo para os astronautas em órbita são as infecções. Por isso, quem vai subir ao espaço sideral começa a
+
+reduzir o contato com outros humanos - amigos, família, por exemplo - já um mês antes. &quot;É que a maioria das
+
+infecções tem um período de incubação de 7 a 14 dias. Assim é mais garantido evitar que alguém chegue
+
+espirrando lá em cima&quot;, conta Thais.
+
+Thaís lembra que todas as secreções, com a gravidade zero, são tratadas com o máximo cuidado - urina e fezes, por
+
+exemplo, são sugadas imediatamente, para reduzir o risco de doenças na espaçonave.
+
+<h3>12.O que é uma estrela cadente?</h3>
+
+Quando olhamos aquele risco de luz cruzar o céu e fazemos nossos pedidos, na verdade estamos nos dirigindo a um
+
+meteoro que sequer é capaz de emitir luz. Realizando-se ou não o desejo, o certo é que a expressão &quot;estrela
+
+cadente&quot; não é muito precisa, segundo Basílio Xavier Santiago, professor do Departamento de Astronomia da
+
+Universidade Federal do Rio Grande do Sul (Ufrgs). &quot;Não se tratam realmente de estrelas, como o Sol ou as que
+
+vemos no céu noturno, e sim de objetos rochosos que normalmente não emitem luz&quot;, diz.
+
+Quando uma destas rochas entra na atmosfera da Terra com velocidade de dezenas de quilômetros por segundo, o
+
+atrito com o ar as aquece muito rapidamente, e elas geralmente são incineradas. É isso que gera a luz.
+
+Apesar de não o presenciarmos com muita frequência, o fenômeno está longe de ser raro. &quot;Todo os dias, milhões
+
+de quilogramas de rochas atingem a Terra. Em sua grande maioria, as rochas são muito pequenas e acabam
+
+completamente incineradas muito antes de se aproximar do solo. Somente as de maior massa penetram toda a
+
+atmosfera e chegam ao solo. Estas causam um impacto sobre os oceanos ou sobre o solo, deixando, no último caso,
+
+uma cratera. Nesses casos, chamamos a rocha de meteorito&quot;, esclarece o professor.
+
+<br><br>Fontes:<br> <a href="https://www.terra.com.br/noticias/educacao/infograficos/vcsabia/duvidas-sobre- astronomia/">Dúvidas sobre astronomia - Terra</a><br>
+
+<a href="https://www.cartacapital.com.br/internacional/as-20- grandes-perguntas- da-ciencia- 1250.html">As 20 grandes perguntas da ciência - Carta Capital</a>
+
+
+<br><br>
+      </div>
+  </center>
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+<div data-role="page" id="main4">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu4min.png">Links Úteis</div>
+      <a href="#pageone" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Estes links irão colaborar na sua viagem para as estrelas. Aproveite!
+       <br><br></center>
+      </div>
+
+      <a href="#main1" data-transition="slide">
+          <a href="https://www.google.com/sky/"><div class="botoes instrumentos">
+              <div class="titulo-menu">Google Sky Drive</div>
+          </div></a>
+        </a>
+        <a href="#main2" data-transition="slide">
+          <a href="http://stars.chromeexperiments.com/"><div class="botoes nautapedia">
+              <div class="titulo-menu">100.000 Stars</div>
+          </div></a>
+              <div class="obs">
+                 <center>Você precisa de internet para acessar.</center>
+              </div>
+  </center>
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="nautanews">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/menu4min.png">Links Úteis</div>
+    <a href="#main2" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Estes links irão colaborar na sua viagem para as estrelas. Aproveite!
+       <br><br></center>
+      </div>
+
+      <a href="#main1" data-transition="slide">
+          <a href="http://www.aeb.gov.br/"><div class="botoes instrumentos">
+              <div class="titulo-menu">AEB</div>
+          </div></a>
+        </a>
+        <a href="#main2" data-transition="slide">
+          <a href="http://socientifica.com.br/ciencia/"><div class="botoes nautapedia">
+              <div class="titulo-menu">Socientifica</div>
+          </div></a>
+        <a href="#main2" data-transition="slide">
+          <a href="http://revistagalileu.globo.com/Ciencia/noticia/plantao.html"><div class="botoes faq">
+              <div class="titulo-menu">Galileu</div>
+          </div></a>
+        <a href="#main2" data-transition="slide">
+          <a href="http://www.bbc.com/portuguese/topics/0f469e6a-d4a6-46f2-b727-2bd039cb6b53"><div class="botoes links">
+              <div class="titulo-menu">BBC Ciência</div>
+          </div></a>
+              <div class="obs">
+                 <center>Você precisa de internet para acessar.</center>
+              </div>
+  </center>
+<center>
+        <a href="#main2" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="almanaque">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/almanaque-min.png">Almanaque</div>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Almanaque oficial disponível no link abaixo:
+       <br><br></center>
+      </div>
+
+      <a href="#main1" data-transition="slide">
+          <a href="http://cartasnauticasbrasil.com.br/"><div class="botoes instrumentos">
+              <div class="titulo-menu">Cartas Náuticas BR</div>
+          </div></a>
+        </a>
+        <a href="#main2" data-transition="slide">
+          <br>
+  </center>
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+
+<div data-role="page" id="cronometro">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/almanaque-min.png">Cronometro</div>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center>Confira a nossa ferramenta de cronômetro:
+       <br><br></center>
+      </div>
+
+        
+          <br>
+  </center>
+
+<center>
+
+<div id="contenedor">
+    <div class="reloj" id="Horas">00</div>
+    <div class="reloj" id="Minutos">:00</div>
+    <div class="reloj" id="Segundos">:00</div>
+    <div class="reloj" id="Centesimas">:00</div><br><br>
+    <input type="button" class="boton" id="inicio" value="Iniciar &#9658;" onclick="inicio();">
+    <input type="button" class="boton" id="parar" value="Parar &#8718;" onclick="parar();">
+    <input type="button" class="boton" id="continuar" value="Continuar &#8634;" onclick="inicio();">
+    <input type="button" class="boton" id="reinicio" value="Resetar &#8635;" onclick="reinicio();">
+  </div>
+
+</center>
+
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+  <!--<div data-role="footer" data-position="fixed">
+    <h1>Footer Text</h1>
+  </div>-->
+</div>
+
+<div data-role="page" id="sextante">
+<div data-role="main" class="ui-content">
+  <center>
+  <div class="titulos">
+  <img src="img/icons/sextante-min.png">Sextante</div>
+    <a href="#main1" data-transition="slide" data-direction="reverse">
+  <div class="btn-menu"><img src="img/icons/btn-menu.jpg"></div></a>
+      <div class="description">
+       <center><i>Esta calculadora utiliza valores da declinação solar, em graus, calculadas segundo Spencer (1971), citado por Vianello e Alves (1991).</i>
+       <br><br>
+
+        <select name="mes" id="mes">
+              <option selected disabled>Mês</option>
+              <option value="janeiro">Janeiro</option>
+              <option value="fevereiro">Fevereiro</option>
+              <option value="marco">Março</option>
+              <option value="abril">Abril</option>
+              <option value="maio">Maio</option>
+              <option value="junho">Junho</option>
+              <option value="junho">Julho</option>
+              <option value="agosto">Agosto</option>
+              <option value="setembro">Setembro</option>
+              <option value="outubro">Outubro</option>
+              <option value="novembro">Novembro</option>
+              <option value="dezembro">Dezembro</option>
+            </select>
+        <table>
+        <tr>
+        <td>
+        <input type="number" id="dia" placeholder="Dia"></input>
+        </td>
+        <td><input type="number"  id="horas" placeholder="Horas"></input></td>
+        <td><input type="number" id="minutos" placeholder="Minutos"></input></td>
+        <td><input type="number" id="angulo" placeholder="Ângulo"></input></td>
+        </tr>
+        </table>
+
+       </center>
+      </div>
+
+        
+          <br>
+  </center>
+
+<center>
+
+<button onclick="sextante((document.getElementById('angulo').value),(document.getElementById('dia').value),(document.getElementById('mes').value),(document.getElementById('horas').value),(document.getElementById('minutos').value))">Resultado</button>
+<div id="result-calc" class="results"></div><br>
+
+</center>
+
+<center>
+        <a href="#pageone" data-transition="slide" data-direction="reverse">
+            <img class="icone-menu" src="img/logo-mini.png">
+          </div>
+        </a>
+      </center>
+</div>
+</div>
+
+  <!--<div data-role="footer" data-position="fixed">
+    <h1>Footer Text</h1>
+  </div>-->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Nauta</name>
+    <description>
+        Aplicativo feito para auxiliar sua aprendizagem e compartilhar seus conhecimentos de Astronomia Náutica e Astronomia com ferramentas dinâmicas e interativas.
+    </description>
+    <author email="haroldoccj@gmail.com" href="http://eiharold.com">
+        Interfaces Livres UFPB
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="img/icon.png" />
+</widget>

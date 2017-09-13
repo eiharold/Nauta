@@ -1,0 +1,209 @@
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+background-color: #280c2b;
+}
+
+
+body{
+    font-family: "Roboto";
+}
+
+p {
+  text-shadow: none;
+  color: #fff;
+  font-size:16px;
+}
+
+
+.results {
+  color: #333;
+  font-size: 24px;
+  border-radius:5px;
+  height: 32px;
+  background: #fff;
+  padding: 5px;
+}
+
+.botao-azul {
+  background: #143e66;
+  padding: 20px;
+  color: #fff;
+  text-shadow: none;
+  width:80%;
+  font-family: "VentiCFBold";
+  font-size: 20px;
+}
+
+.titulos {
+  padding: 10px;
+  color: #fff;
+  text-shadow: none;
+  font-family: "VentiCFBold";
+  font-size: 32px;
+  height: 40px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.description {
+text-align: left;
+font-size: 14px;
+margin-top:0px;
+line-height: 18px;
+}
+
+.icone-menu {
+}
+
+.titulo-menu {
+  width:220px;
+}
+
+.botoes {
+  padding: 25px;
+  color: #fff;
+  text-shadow: none;
+  font-family: "VentiCFBold";
+  text-transform: uppercase;
+  font-size: 18px;
+  height: 50px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.instrumentos {
+  background: #bf1c61;
+
+}
+
+.nautapedia {
+  background: #a41666;
+}
+
+.faq {
+  background: #6e225f;
+}
+
+.links {
+  background: #421e5c;
+}
+
+.botao-azul a, a:hover, a:visited, a:active, a:link {
+  text-decoration: none;
+}
+
+.sextante {
+  background: #b02565;
+
+}
+
+.cronometro {
+  background: #ab195f;
+
+}
+
+.almanaque {
+  background: #9b1455;
+
+}
+
+#intro1 {
+  background: url('../img/bg-gradiente-azul.png');
+  background-size: contain;
+}
+
+
+.box {
+  width: 80%;
+  margin-top:25%;
+}
+
+@font-face {
+
+      font-family: "VentiCF";
+      src: url("../font/VentiCF-Light.otf") format("truetype");
+
+      }
+
+@font-face {
+
+      font-family: "VentiCFBold";
+      src: url("../font/VentiCF-Bold.otf") format("truetype");
+
+      }
+
+@font-face {
+
+      font-family: "Roboto";
+      src: url("../font/Roboto-Light.ttf") format("truetype");
+
+      }
+
+a, a:visited {
+  text-decoration: none;
+  color: #fff;
+  text-shadow:none;
+}
+
+.description {
+  text-decoration: none;
+  text-shadow: none;
+  color: #fff;
+}
+
+.obs {
+  font-size: 12px;
+  margin-top: 10px;
+  color:#733786;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+h3 {
+  border-top: 1px solid #733786;
+  padding-top: 10px;
+}
+
+.btn-menu {
+  text-align: left;
+  margin-top: -55px;
+}
+
+/* CRONOMETRO */
+
+#contenedor{
+  margin: 10px 30px;
+  text-align: center;
+}
+.reloj{
+  float: left;
+  font-size: 40px;
+  font-family: Courier,sans-serif;
+  color: #fff;
+}
+.boton{
+  outline: none;
+  color: white;
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 0px;
+  font-family: Helvetica;
+  cursor: pointer;
+  background-color: #00ff00;
+}
+.boton:active{
+  background-image: linear-gradient(#2c6f05,#3aad02);
+}
+.boton:hover{
+  box-shadow: 0px 0px 14px #3aad02;
+}
+
+/* FIM DO CRONOMETRO */
